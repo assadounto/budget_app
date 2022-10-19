@@ -1,0 +1,2 @@
+class BudgetTransaction < ApplicationRecord
+end
