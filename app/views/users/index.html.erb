@@ -1,14 +1,10 @@
-<p style="color: green"><%= notice %></p>
-
-<h1>Users</h1>
-
-<div id="users">
-  <% @users.each do |user| %>
-    <%= render user %>
-    <p>
-      <%= link_to "Show this user", user %>
-    </p>
-  <% end %>
+<div class ="first-page">
+  <div class="p-3 logo-text">  
+    <h1 class=" text-center py-5">BudgetApp</h1>
+    <h1 class=" text-center py-5">BudgetApp</h1>
+  </div>
+  <div class="d-grid p-3 m-3">
+    <%= link_to "Log in", new_user_session_path, :class => "btn btn-primary" %><br>
+    <%= link_to "Sign up", new_user_registration_path, :class => "btn btn-light" %>
+  </div>
 </div>
-
-<%= link_to "New user", new_user_path %>
