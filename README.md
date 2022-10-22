@@ -1,24 +1,112 @@
-# README
+# BUDGET APP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Budget app is a mobile application, where we manage our expenses.
 
-Things you may want to cover:
+## Video Presentation link
+[Video Link]()
 
-* Ruby version
 
-* System dependencies
+## Live Link
+[Live Link]()
 
-* Configuration
+## Built With
 
-* Database creation
+- Ruby
+- Ruby on Rails
 
-* Database initialization
 
-* How to run the test suite
+## Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+To get a local copy up and running follow these simple example steps.
 
-* Deployment instructions
+- git clone https://github.com/assadounto/budget-app.git
 
-* ...
+- cd budget-app
+
+
+### Prerequisites
+
+Ruby
+Rails
+PostgresSQL
+
+
+### Setup
+
+Install gems with:
+
+```
+bundle install
+```
+
+Setup database with:
+
+```
+rails db:create
+rails db:migrate
+```
+
+Start server with:
+
+```
+rails server
+```
+
+Open http://localhost:3000/ in your browser.
+
+
+### Run tests
+
+Install npm with:
+
+```
+npm i
+```
+
+Install rspec with:
+
+```
+bundle install
+```
+
+and
+
+```
+rails generate rspec:install
+```
+
+run the test with:
+
+```
+rspec spec
+```
+
+## Author
+
+👤 **Rich Adu**
+
+- GitHub: [@assadounto](https://github.com/assadounto)
+- Twitter: [@adukyerer](https://twitter.com/adukyerer)
+
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/assadounto/budget-app/issues).
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgments
+
+- Credits go to [Gregoire](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=) at Behance
+
+
+## 📝 License
+
+This project is [MIT](./LICENCE) licensed.
